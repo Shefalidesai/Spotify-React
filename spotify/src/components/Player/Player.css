@@ -1,0 +1,22 @@
+
+.controls{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 15rem ;
+    width: 10rem;  
+}
+.player_container{
+    max-height: 50rem;
+}
+.title{
+    margin-left: 5rem;
+    width: 20rem;
+}
+.currImg{
+    max-width: 25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+}
+

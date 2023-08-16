@@ -1,0 +1,114 @@
+.container{
+  display: grid;
+}
+header{
+    font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
+.searchTerm {
+  display: flex;
+width: 400px;
+padding: 8px 16px;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.08);
+border: 0px ;
+}
+
+.searchTerm:focus{
+  color:  white;
+}
+.wrap{
+  display: flex;
+  width: 400px;
+  padding: 8px 26px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -2rem;
+  border-radius: 8px;
+  background: linear-gradient(to right, rgba(255, 87, 51, 0), rgba(255, 87, 51, 0));
+
+}
+
+.list{
+  width: 60vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame{
+  list-style: none;
+  display: flex;
+  line-height: 13vh;
+}
+
+.songName{
+  font-family: Basier Circle;  
+  margin-left: 3vh;
+  margin-top: 1vh;
+  font-size: 1.12rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.6rem;
+}
+.songList{
+  display: flex;
+width: 432px;
+padding: 16px;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.00);
+
+}
+
+.songName-img{
+  width: 8vh;
+  height: 8vh;
+  border-radius: 56px;
+ margin-top: 3vh;
+}
+
+.artist{
+  /* margin-top: -2vh; */
+  margin-right: auto;
+  color: #FFF;
+font-family: Basier Circle;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 100;
+}
+.songDuration{
+  color: #FFF;
+text-align: right;
+font-family: Basier Circle;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+.player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.duration{
+          margin-left: 20rem;
+          
+}
+
+
+
+

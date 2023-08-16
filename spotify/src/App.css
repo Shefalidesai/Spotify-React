@@ -1,0 +1,22 @@
+@media (min-width: 768px){
+body {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 8px;
+  background: linear-gradient(135deg,rgb(0, 0, 0) 0%, #000 100%);
+  color: #fff; 
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three equal columns */
+  gap: 10px;
+}
+
+.component {
+  height: inherit;
+  width: 30vh; 
+  padding: 10px;
+  margin: 10px;
+}
+}
