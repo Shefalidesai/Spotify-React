@@ -10,10 +10,10 @@ Play/Pause/Next
 <table>
   <tr>
     <td>
-      <img src="image_url_1" alt="Image 1" width="300">
+      <img src="https://github.com/Shefalidesai/Spotify-React/blob/main/Screenshot%20(21).png" alt="Image 1" width="300">
     </td>
     <td>
-      <img src="image_url_2" alt="Image 2" width="300">
+      <img src="https://github.com/Shefalidesai/Spotify-React/blob/main/Screenshot%20(22).png" alt="Image 2" width="300">
     </td>
     <td>
       <img src="https://github.com/Shefalidesai/Spotify-React/blob/main/Screenshot%20(24).png" alt="Image 3" width="300">
